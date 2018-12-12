@@ -127,7 +127,7 @@ Ref insertObject( ulong size )
  //------------------------------------------------------ 
 void *retrieveObject( Ref ref )
 {
-  assert(ref!=NULL || ref>0;)
+  assert(ref<0);
 
   Index *curr=Top;
 
